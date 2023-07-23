@@ -1,0 +1,214 @@
+[
+  {
+    "image": "https://i.ibb.co/qk4yXtK/university-abertay-university.jpg",
+    "name": "ABC College",
+    "college_rating": 4.5,
+    "admission_date": "2023-08-15",
+    "admission_process": "Online Application",
+    "number_of_research": 150,
+    "research_history": "Founded in 1950, the college has a rich history of groundbreaking research in various fields.",
+    "sports_facility": {
+      "category": "Sports Complex",
+      "facilities": ["Swimming Pool", "Gymnasium", "Tennis Courts", "Football Field"]
+    },
+    "events_details": [
+      {
+        "title": "Orientation Day",
+        "date": "2023-09-01",
+        "description": "An event to welcome new students and introduce them to campus life."
+      },
+      {
+        "title": "Annual Fest",
+        "date": "2024-03-15",
+        "description": "A grand celebration of talents and creativity with various competitions and performances."
+      }
+    ],
+    "research_works":[
+      {
+        "title": "Advancements in Nanotechnology for Sustainable Energy Solutions.",
+        "duration": "150 days"
+      },
+      {
+        "title": "Investigating the Impact of Climate Change on Biodiversity",
+        "duration": "100 days"
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/MNtnLVg/university-adelphi-university.jpg",
+    "name": "XYZ College of Engineering",
+    "college_rating": 4.2,
+    "admission_date": "2023-07-30",
+    "admission_process": "Entrance Exam",
+    "number_of_research": 80,
+    "research_history": "Known for its contributions to engineering research and technological advancements.",
+    "sports_facility": {
+      "category": "Sports Ground",
+      "facilities": ["Cricket Pitch", "Basketball Court", "Volleyball Court", "Badminton Court"]
+    },
+    "events_details": [
+      {
+        "title": "Tech Expo",
+        "date": "2024-02-20",
+        "description": "A showcase of innovative projects and technological marvels created by students."
+      },
+      {
+        "title": "Cultural Night",
+        "date": "2024-04-10",
+        "description": "An evening of cultural performances, dance, and music from different regions."
+      }
+    ],
+    "research_works":[
+      {
+        "title": "Enhancing Internet of Things (IoT) Security in Smart Cities.",
+        "duration": "70 days"
+      },
+      {
+        "title": "Developing Low-cost and Efficient Water Purification Technologies.",
+        "duration": "110 days"
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/k4hNZc2/university-alexander-college.jpg",
+    "name": "PQR Medical College",
+    "college_rating": 4.8,
+    "admission_date": "2023-09-10",
+    "admission_process": "NEET Entrance Exam",
+    "number_of_research": 50,
+    "research_history": "Renowned for its breakthroughs in medical research and patient care.",
+    "sports_facility": {
+      "category": "Health and Fitness",
+      "facilities": ["Yoga Studio", "Indoor Games", "Fitness Center"]
+    },
+    "events_details": [
+      {
+        "title": "Medical Symposium",
+        "date": "2024-03-01",
+        "description": "An academic conference discussing the latest advancements in the medical field."
+      },
+      {
+        "title": "Health Awareness Camp",
+        "date": "2024-05-15",
+        "description": "A community initiative to promote health and wellness through awareness and check-ups."
+      }
+    ],
+    "research_works":[
+      {
+        "title": "Studying the Efficacy of Personalized Medicine in Cancer Treatment.",
+        "duration": "180 days"
+      },
+      {
+        "title": "Understanding the Neurological Basis of Alzheimer's Disease.",
+        "duration": "200 days"
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/mD4vz3V/university-alliant-international-university.png",
+    "name": "LMN Business School",
+    "college_rating": 4.0,
+    "admission_date": "2023-08-01",
+    "admission_process": "CAT Entrance Exam",
+    "number_of_research": 30,
+    "research_history": "Focused on business and management research to drive innovation and leadership.",
+    "sports_facility": {
+      "category": "Recreational Sports",
+      "facilities": ["Table Tennis", "Chess", "Carrom", "Pool Table"]
+    },
+    "events_details": [
+      {
+        "title": "Business Conclave",
+        "date": "2024-02-10",
+        "description": "A platform for industry experts and students to discuss current business trends."
+      },
+      {
+        "title": "Entrepreneurship Summit",
+        "date": "2024-04-20",
+        "description": "Inspiring entrepreneurs share their success stories and insights."
+      }
+    ],
+    "research_works":[
+      {
+        "title": "Analyzing the Role of Emotional Intelligence in Effective Leadership.",
+        "duration": "60 days"
+      },
+      {
+        "title": "Exploring the Impact of E-commerce on Traditional Retail Businesses.",
+        "duration": "90 days"
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/0hXFvrK/university-3a-lecole-du-management-responsable.jpg",
+    "name": "EFG School of Arts",
+    "college_rating": 4.7,
+    "admission_date": "2023-09-20",
+    "admission_process": "Portfolio Submission",
+    "number_of_research": 20,
+    "research_history": "Known for nurturing artistic talent and pushing boundaries in the world of arts.",
+    "sports_facility": {
+      "category": "Art Studio",
+      "facilities": ["Pottery Studio", "Painting Studio", "Sculpting Workshop"]
+    },
+    "events_details": [
+      {
+        "title": "Art Exhibition",
+        "date": "2024-03-25",
+        "description": "An exhibition showcasing the creative masterpieces of students and renowned artists."
+      },
+      {
+        "title": "Cultural Week",
+        "date": "2024-04-25",
+        "description": "A week-long celebration of cultural diversity through various art forms."
+      }
+    ],
+    "research_works":[
+      {
+        "title": "Reviving Ancient Art Techniques through Modern Technologies.",
+        "duration": "70 days"
+      },
+      {
+        "title": "Examining the Role of Art Therapy in Mental Health Treatment.",
+        "duration": "50 days"
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/2gPW46X/university-alpha-college.jpg",
+    "name": "UVW Law College",
+    "college_rating": 4.4,
+    "admission_date": "2023-08-20",
+    "admission_process": "CLAT Entrance Exam",
+    "number_of_research": 10,
+    "research_history": "Dedicated to legal research and producing skilled lawyers and advocates.",
+    "sports_facility": {
+      "category": "Moot Court",
+      "facilities": ["Moot Court Room", "Legal Aid Clinic", "Law Library"]
+    },
+    "events_details": [
+      {
+        "title": "Legal Symposium",
+        "date": "2024-02-15",
+        "description": "A symposium on contemporary legal issues with eminent jurists and scholars."
+      },
+      {
+        "title": "Mock Trial",
+        "date": "2024-04-05",
+        "description": "Students showcase their advocacy skills in simulated courtroom proceedings."
+      }
+    ],
+    "research_works":[
+      {
+        "title": "Assessing the Effectiveness of Restorative Justice Practices.",
+        "duration": "120 days"
+      },
+      {
+        "title": "Investigating the Challenges of Cybersecurity Laws in the Digital Age.",
+        "duration": "90 days"
+      }
+    ]
+  }
+]
+
+  
