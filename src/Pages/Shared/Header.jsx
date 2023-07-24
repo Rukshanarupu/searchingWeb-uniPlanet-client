@@ -1,18 +1,19 @@
 import { useContext, useEffect } from 'react';
-import { Link, NavLink, useLocation } from 'react-router-dom';
+import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../Providers/AuthProviders';
 import { FaUserCircle } from 'react-icons/fa';
 
 const Header = () => {
     const {user, logOut}=useContext(AuthContext)
     const location = useLocation();
+    const navigate = useNavigate();
 
     useEffect(() => {
         const routeName = location.pathname.replace('/', '');
         const formattedRouteName = routeName.charAt(0).toUpperCase() + routeName.slice(1);
         document.title = `uniPlanet | ${formattedRouteName}`;
       }, [location]);
-    console.log(user)
+    // console.log(user)
 
     const handleLogout=()=>{
         logOut()
@@ -32,7 +33,6 @@ const Header = () => {
             <li className='mx-1 my-2'><NavLink className={({ isActive }) => (isActive ? 'active' : 'default')} to='/signup'>Sign up</NavLink></li>
         }
         {user?
-        // <li onClick={handleLogout} href='' className="">Log Out</li>:
         <li onClick={handleLogout} className='mx-1 my-2'><a href="">Log Out</a></li>:
         <li className='mx-1 my-2'><NavLink className={({ isActive }) => (isActive ? 'active' : 'default')} to="/login">Login</NavLink></li>
         }
@@ -61,7 +61,7 @@ const Header = () => {
                 </div>
             </div>
             <div className="navbar-end">
-                <Link to="">
+                <div onClick={() => navigate(`/profile/${user?.email}`)}>
                     {
                         user ? 
                             <div className='mr-2 tooltip tooltip-bottom tooltip-warning ' data-tip={user.displayName}>
@@ -76,7 +76,7 @@ const Header = () => {
                         </div>
 
                     }
-                </Link>
+                </div>
                 <div className="form-control">
                     <div className="input-group ">
                         <input type="text" placeholder="Search by College name" className="input input-bordered md:w-full w-[80px]" />

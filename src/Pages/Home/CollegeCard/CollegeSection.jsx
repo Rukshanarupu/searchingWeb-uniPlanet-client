@@ -20,8 +20,7 @@ const CollegeSection = () => {
     if (loading) {
         return <LoadingSpinner />;
     }
-
-    console.log(colleges)
+    // console.log(colleges)
 
     return (
         <div className="container mx-auto">
@@ -36,7 +35,7 @@ const CollegeSection = () => {
 
 const College =({college})=>{
     const {user } = useContext(AuthContext);
-    console.log(college)
+    // console.log(college)
     const {image, name, admission_date, sports_facility, events_details, _id}=college || {}
     const warning = () => toast.error('You have to log in first to view details');
 
@@ -46,7 +45,7 @@ const College =({college})=>{
         <div className="card-body">
           <div>
             <h2 className="card-title text-2xl">{name}</h2>
-              <h3 className=" text-xl">Admission Date: <span className="text-amber-600">{ admission_date } </span></h3>
+            <h3 className=" text-xl">Admission Date: <span className="text-amber-600">{ admission_date } </span></h3>
             <p className="text-lg">Sports Category: <span className="text-amber-600">{ sports_facility.category }</span></p>
           </div>
           <div className="flex gap-1 text-lg">
